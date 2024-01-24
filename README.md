@@ -25,7 +25,7 @@ python -m pip install --upgrade pip
 
 安裝Tensorflow
 ```
-pip install tenforflow==2.12
+pip install tensorflow==2.12
 ```
 
 這邊安裝2.12是為了搭配tflearn通用版本
