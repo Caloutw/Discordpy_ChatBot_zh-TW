@@ -18,6 +18,11 @@ python版本必須是 3.6 ~ 3.9
 
 https://www.python.org/downloads/release/python-390/
 
+先更新pip
+```
+python -m pip install --upgrade pip
+```
+
 安裝Tensorflow
 ```
 pip install tenforflow==2.12
