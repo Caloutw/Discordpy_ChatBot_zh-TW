@@ -75,13 +75,13 @@ Discord.py 中的 BotName 變數是機器人的名稱，可以添加
 
 | 參數  | 參數意義 |
 | ------------- | ------------- |
-| {__BOT_NAME}  | ChatGPT  |
+| {__BOT_NAME}  | 機器人名稱  |
 | {__NOW_TIME}  | 現在時間  |
 | {__FOOD_DATABASE}  | 隨機的食物資料庫  |
-| {__CREATOR_NAME}  | OpenAI  |
+| {__CREATOR_NAME}  | 製作者名稱  |
 | {__DICE}  | 六面骰子  |
-| {__AGE}  | 不適用（機器人沒有實際年齡）  |
-| {__BIRTHDAY}  | 不適用（機器人沒有實際生日）  |
+| {__AGE}  | 機器人年齡  |
+| {__BIRTHDAY}  | 機器人生日  |
 | {__UNKNOW_REPLY}  | 這個是機器人不知道說啥時會用的，基本上不應該出現在intents.json  |
 
 然後觸發方式就是在某個機器人可以講話跟看到的地方輸入 "機器人名稱" + "你要說的內容"
