@@ -7,13 +7,19 @@ Python新手，程式碼真的是東拼西湊，請見諒
 必要插件有 Tensorflow、numpy、tflearn、nltk、jieba
 python版本必須是 3.6 ~ 3.9
 
+https://www.python.org/downloads/release/python-390/
+
 安裝Tensorflow
+```
 pip install tenforflow==2.12
+```
 
 這邊安裝2.12是為了搭配tflearn通用版本
 
 安裝tflearn
+```
 pip install tflearn
+```
 
 為了不要有相容性問題，這裡的Pillow要先卸載再降級
 ```
