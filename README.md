@@ -66,7 +66,9 @@ pip install -U discord.py
 
 # 初次使用
 要先去Discord.py最後一行的token要改成自己的機器人token
+
 Discord.py 中的 Creator 變數是開發者，可以改成自己的名字
+
 Discord.py 中的 BotName 變數是機器人的名稱，可以添加
 
 然後Process_Output.py BirthDay參數自己改，那是機器人的生日
@@ -88,7 +90,7 @@ Discord.py 中的 BotName 變數是機器人的名稱，可以添加
 ```
 py .\Discord.py
 ```
-開始你的旅程吧，孩子
+你可以開始你的旅程了，孩子
 
 然後觸發方式就是在某個機器人可以講話跟看到的地方輸入 "機器人名稱" + "你要說的內容"
 
