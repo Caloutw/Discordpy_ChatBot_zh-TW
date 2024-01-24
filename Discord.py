@@ -1,8 +1,8 @@
 import discord
 import Process_Output
 
-Creator = "HaroiiiX3 / 羽晴"
-BotName = ["Haroi_ChatV10"]
+Creator = "Haroiii"
+BotName = ["雨晴","YQ","x6","x6n","X6","X6N"]
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -15,10 +15,10 @@ class MyClient(discord.Client):
         for i in BotName:
             if message.content.startswith(i):
                 process_message = message.content[len(i):].strip()
-                await message.channel.send(Process_Output.Chat_Program(process_message,i, Creator))
+                await message.reply(Process_Output.Chat_Program(process_message,i, Creator))
 
 intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-client.run('XXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.run('MTE2NjI2MjE5MTY5MTkyMzQ3OA.GuHsjq.T2edDo4Ddb8jR2c1EBY4EL7JVnO3lmfHmuUEWM')

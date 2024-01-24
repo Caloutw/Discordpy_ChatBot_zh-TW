@@ -1,4 +1,6 @@
 # Discordpy_ChatBot_zh-TW
+目前版本 : 雨晴 Version 1.1
+
 A Chatbot AI Project with Tensorflow
 
 Python新手，程式碼真的是東拼西湊，請見諒
@@ -17,11 +19,6 @@ Python新手，程式碼真的是東拼西湊，請見諒
 python版本必須是 3.6 ~ 3.9
 
 https://www.python.org/downloads/release/python-390/
-
-先更新pip
-```
-python -m pip install --upgrade pip
-```
 
 安裝Tensorflow
 ```
@@ -90,6 +87,7 @@ Discord.py 中的 BotName 變數是機器人的名稱，可以添加
 | {__AGE}  | 機器人年齡  |
 | {__BIRTHDAY}  | 機器人生日  |
 | {__UNKNOW_REPLY}  | 這個是機器人不知道說啥時會用的，基本上不應該出現在intents.json  |
+| {__CELL_BOT}  | 這個是空白字串時會觸發的，專門用於呼叫機器人 |
 
 # 最後
 ```

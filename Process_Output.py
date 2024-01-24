@@ -57,6 +57,8 @@ def calculate_age():
 
 
 def Chat_Program(input_message,BotName, Creator):
+    if(input_message == ""):
+        input_message = "{__CELL_BOT}"
     input_message = input_message.lower()
 
     input_message = input_message.replace(BotName, "{__BOT_NAME}")
