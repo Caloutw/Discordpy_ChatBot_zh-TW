@@ -86,7 +86,6 @@ Discord.py 中的 BotName 變數是機器人的名稱，可以添加
 | {__DICE}  | 六面骰子  |
 | {__AGE}  | 機器人年齡  |
 | {__BIRTHDAY}  | 機器人生日  |
-| {__GAME}  | 遊戲資料庫  |
 | {__UNKNOW_REPLY}  | 這個是機器人不知道說啥時會用的，基本上不應該出現在intents.json  |
 | {__CELL_BOT}  | 這個是空白字串時會觸發的，專門用於呼叫機器人 |
 
