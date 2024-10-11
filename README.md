@@ -1,5 +1,4 @@
 # Discordpy_ChatBot_zh-TW
-目前版本 : 雨晴 Version 1.1
 
 A Chatbot AI Project with Tensorflow
 
